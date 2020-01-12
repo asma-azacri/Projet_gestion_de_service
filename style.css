@@ -1,0 +1,361 @@
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+  width: 26%;
+  padding: 16px;
+  text-align: top;
+  
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 5px 16px;
+}
+body {
+  font-family: "Lato", sans-serif;
+  color:#191970;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color:blue;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+.list-group.panel > .list-group-item {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px
+}
+
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(00,00, 24);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+   
+  background-color:rgb(00,00, 24);;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar-default {
+  background-color:rgb(00,00, 24);
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+}
+
+
+header .site-branding-logo {
+    padding: 10px 20px 10px;
+    display: inline-block;
+    max-height: 80px;
+}
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  height: 44px;
+  color:rgb(00,00, 24);
+  background-color: #fff;
+  border-bottom: 3px solid #0d2c52;
+}
+
+
+.center { text-align: center }
+.center table {margin-left:auto; margin-right:50%;}
+.left {text-align: right}
+.right {text-align: left}
+  .error {color: red;}
+
+#container{
+    width:50%;
+    margin:0 auto;
+    margin-top:10%;
+   
+}
+/* Bordered form */
+form {
+  margin: 0 auto 0 auto;
+	width:730px;
+    padding: 15px;
+    border: 3px solid #f1f1f1;
+    background:rgb(256, 256, 256);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin:  8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=tel], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin:  8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=number], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin:  8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin:  8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+select{
+  width: 100%;
+  padding: 12px 20px;
+  margin:  8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+input[type=submit]:hover {
+     width: 50%
+    background-color= rgb(235, 232, 232);
+    color: #0000CD;
+    border: 1px solid  #0000CD;
+}
+
+button[type=submit] {
+    width: 50%;
+    background-color: #0000CD ;
+    color: white;
+    padding: 14px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+   
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    padding-top: 20px;
+    background-color:rgb(00,00, 24);;
+    height: 100%;
+  }
+  .row.content {height:auto;} 
+}
+
+.navbar-brand {
+  padding: 0px;
+  color:rgb(00,00, 24);
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+
+p{
+  background: rgb(256, 256, 256);
+}
+
+body {
+  padding-top: 20px;
+  background:rgb(218, 237, 255);
+}  
+  
+ 
+  .navbar-fixed-top {
+    border: 0;
+    color:rgb(00,00, 24);;
+  }
+  
+  /*
+   * Sidebar
+   */
+  
+  /* Hide for mobile, show later */
+  .sidebar {
+    display: none;
+    color:rgb(00,00, 24);
+  }
+  @media (min-width: 768px) {
+    .sidebar {
+      position: fixed;
+      top: 51px;
+      bottom: 0;
+      left: 0;
+      z-index: 1000;
+      display: rgb(00,00, 24);;
+      padding: 20px;
+      overflow-x: hidden;
+      overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+      background-color: rgb(00,00, 24);;
+      border-right: 1px solid rgb(00,00, 24);;
+    }
+  }
+  
+  /* Sidebar navigation */
+  .nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+  .nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .nav-sidebar > .active > a,
+  .nav-sidebar > .active > a:hover,
+  .nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+  }
+  
+  
+  /*
+   * Main content
+   */
+  
+  .main {
+    padding: 20px;
+  }
+  @media (min-width: 768px) {
+    .main {
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+  }
+  .main .page-header {
+    margin-top: 0;
+  }
+  
+  
+ 
